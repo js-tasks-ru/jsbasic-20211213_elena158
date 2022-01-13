@@ -1,3 +1,5 @@
 function namify(users) {
-  // ваш код...
+  let result =[];
+  result = [...new Set(users.map(item => item.name))];
+  return result
 }
